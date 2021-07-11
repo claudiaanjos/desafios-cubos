@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cyan: rgb(95, 180, 162);
+    --dark-blue: rgb(32, 58, 76);
+    --grayish-dark-blue: rgb(51, 50, 61);
+    --ligth-grey-bg: rgb(250, 250, 250);
+    --light-grey-input: rgb(234, 234, 235);
+    
+    --font-headings: font-family: 'Ibarra Real Nova', serif;
+    --font-body: font-family: 'Public Sans', sans-serif;                                   
+}
+
+body {
+    color: var(--grayish-dark-blue);
+}
+
+/* Titles and texts */
+
+.title-h1, .title-h2, .title-h3 {
+    font-family: var(--font-headings);
+    font-style: normal;
+}
+
+.title-h1 {
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.45px;
+}
+
+.title-h2 {
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.36px;
+}
+
+.title-h3 {
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.29px;
+}
+
+.text-1, .text-2 {
+    font-family: var(--font-body);
+    font-style: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.text-2 {
+    font-size: 15px;
+}
+
+/* BUTTON */
+
+.btn {
+    all: unset;
+    box-sizing: border-box;
+
+    padding: 17px 0px;
+    width: 200px;
+
+    font-family: var(--font-body);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Display Flex */
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.just-evenly {
+    justify-content: space-evenly;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* MENU NAV */
+
+.no-style {
+    list-style: none;
+}
+
+.menu__li {
+    margin-left: 42px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: var(--grayish-dark-blue);
+    font-family: var(--font-body);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+}
+
+.cyan-color {
+    color: var(--cyan);
+}
+
+.ligth-grey-color {
+    color: var(--ligth-grey-bg);
+}
+

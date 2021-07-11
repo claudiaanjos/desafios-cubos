@@ -1,0 +1,94 @@
+/* HEADER */
+
+.header {
+    padding: 50px 165px;
+}
+
+/* MAIN */
+
+.main {
+    padding: 0px 165px;
+}
+
+/* HERO */
+
+.hero {
+    background-image: url(../../assets/home/image-homepage-hero.jpg);
+    min-height: calc(100vh - 132px);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    align-items: end;
+    justify-content: flex-end;
+}
+
+.hero__box {
+    background-color: var(--ligth-grey-bg);
+    width: 445px;
+}
+
+.hero__box .title-h1 {
+    padding: 55px 27px 0px 27px;
+    margin-bottom: 53px;
+}
+
+.btn__primary {
+    color: var(--ligth-grey-bg);
+    background-color: var(--dark-blue);
+}
+
+.btn__primary:hover {
+    background-color: var(--cyan);
+    transition: .3s;
+}
+
+/* ABOUT */
+
+.about {
+    margin: 150px 0px;
+}
+
+.about__img {
+    width: 50%;
+}
+
+.about__content {
+    padding: 51px 0px 0px 140px;
+    width: 50%;
+}
+
+.about__content .text-1 {
+    margin-top: 28px;
+    margin-bottom: 24px;
+}
+
+.btn__secondary {
+    align-self: center;
+    border: 1px solid var(--grayish-dark-blue);
+    
+    margin-bottom: 46px;
+}
+
+.btn__secondary:hover {
+    background-color: var(--grayish-dark-blue);
+    color: var(--ligth-grey-bg);
+    transition: .3s;
+}
+
+/* CONTACT */
+
+.contact {
+    margin-bottom: 150px;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: var(--grayish-dark-blue);
+    padding: 28px 165px;
+}
+
+.footer__img {
+    margin-left: 15px;;
+}
