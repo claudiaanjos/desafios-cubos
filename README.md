@@ -5,7 +5,6 @@
 
 ## Módulo 01
 
-<br>
 
 ### Front-end
 
