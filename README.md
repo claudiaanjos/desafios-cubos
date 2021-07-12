@@ -9,7 +9,8 @@
 
 ### Front-end
 
-- replicar o website encontrado no arquivo 'Desafio front academy 1.fig'.
+- Replicar o website encontrado no arquivo 'Desafio front academy 1.fig'.
+- [Clique aqui para visualizar o site.](https://challenge01.claudinha.repl.co/index.html)
 
 <br>
 
