@@ -6,6 +6,7 @@
     padding: 0;
 }
 
+
 :root {
     --cyan: rgb(95, 180, 162);
     --dark-blue: rgb(32, 58, 76);
@@ -17,11 +18,58 @@
     --font-body: font-family: 'Public Sans', sans-serif;                                   
 }
 
+
 body {
     color: var(--grayish-dark-blue);
 }
 
-/* Titles and texts */
+
+
+/* HEADER */
+
+.header {
+    padding: 50px 165px;
+}
+
+
+/* CONTACT */
+
+.contact {
+    margin-bottom: 150px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: var(--grayish-dark-blue);
+    padding: 28px 165px;
+}
+
+.footer__img {
+    margin-left: 15px;;
+}
+
+
+/* WIDTH */
+
+.width-50 {
+    width: 50%;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+/* BORDER */
+
+.border {
+    border-top: 1px solid var(--light-grey-input);
+    border-bottom: 1px solid var(--light-grey-input);
+}
+
+
+/* TITLES AND TEXTS */
 
 .title-h1, .title-h2, .title-h3 {
     font-family: var(--font-headings);
@@ -42,7 +90,7 @@ body {
 
 .title-h3 {
     font-size: 32px;
-    line-height: 36px;
+    line-height: 42px;
     letter-spacing: -0.29px;
 }
 
@@ -57,6 +105,8 @@ body {
     font-size: 15px;
 }
 
+
+
 /* BUTTON */
 
 .btn {
@@ -66,6 +116,7 @@ body {
     padding: 17px 0px;
     width: 200px;
 
+    text-decoration: none;
     font-family: var(--font-body);
     font-style: normal;
     font-weight: normal;
@@ -74,9 +125,36 @@ body {
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
+    cursor: pointer;
+    color: var(--grayish-dark-blue);
 }
 
-/* Display Flex */
+.btn__primary {
+    color: var(--ligth-grey-bg);
+    background-color: var(--dark-blue);
+}
+
+.btn__primary:hover {
+    background-color: var(--cyan);
+    transition: .3s;
+}
+
+.btn__secondary {
+    align-self: center;
+    border: 1px solid var(--grayish-dark-blue);
+    
+    margin-bottom: 46px;
+}
+
+.btn__secondary:hover {
+    background-color: var(--grayish-dark-blue);
+    color: var(--ligth-grey-bg);
+    transition: .3s;
+}
+
+
+
+/* DISPLAY FLEX */
 
 .flex {
     display: flex;
@@ -85,6 +163,10 @@ body {
 .flex-column {
     display: flex;
     flex-direction: column;
+}
+
+.just-center {
+    justify-content: center;
 }
 
 .just-evenly {
@@ -98,6 +180,16 @@ body {
 .align-center {
     align-items: center;
 }
+
+.align-self {
+    align-self: flex-start; 
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+
 
 /* MENU NAV */
 

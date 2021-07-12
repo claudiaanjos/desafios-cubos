@@ -5,15 +5,14 @@
 
 ## Módulo 01
 
+<br>
 
 ### Front-end
 
-<br>
+- replicar o website encontrado no arquivo 'Desafio front academy 1.fig'.
 
-- O objetivo do desafio é replicar o website encontrado no arquivo 'Desafio front academy 1.fig'.
+<br>
 
 ### Back-end
-
-<br>
 
 - Desafio de Lógica de programação no HackerRank.

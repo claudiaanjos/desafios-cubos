@@ -1,0 +1,48 @@
+.main {
+    padding: 0px 165px;
+}
+
+.contact {
+    padding: 50px 0px;
+}
+
+.contact__social {
+    margin-top: 54px;
+}
+
+.contact__img {
+    margin-right: 15px;
+}
+
+.form__inputs {
+    margin-bottom: 109px;
+}
+
+.label {
+    font-family: var(--font-body);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+
+    margin-bottom: 8px;
+}
+
+.input {
+    all: unset;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 24px;
+
+    background-color:var(--light-grey-input);
+}
+
+.input:focus {
+    border: 1px solid var(--dark-blue);
+}
+
+.input__message{
+    padding: 40px;
+}
+
+

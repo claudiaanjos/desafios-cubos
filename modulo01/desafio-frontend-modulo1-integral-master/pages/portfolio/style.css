@@ -1,0 +1,22 @@
+.main {
+    padding: 0px 212px;
+}
+
+.padding-content {
+    padding: 28px 0 58px 0;
+}
+
+/* MARGIN */
+
+.margin-b-80 {
+    margin-bottom: 80px;
+}
+
+.margin-l-125 {
+    margin-left: 125px;
+}
+
+.margin-r-125 {
+    margin-right: 125px;
+}
+

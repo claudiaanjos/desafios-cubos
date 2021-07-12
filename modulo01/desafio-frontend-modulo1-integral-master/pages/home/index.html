@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio 01</title>
+    <title>Home</title>
     <link rel="stylesheet" href="../../css/global.css">
     <link rel="stylesheet" href="../../pages/home/style.css">
 </head>
@@ -25,29 +25,29 @@
         <section class="hero flex-column">
             <div class="hero__box">
                 <h1 class="title-h1">Olá, me chamo Alex Spencer e eu amo construir websites lindos</h1>
-                <button class="btn__primary btn flex just-evenly">
+                <a class="btn__primary btn flex just-evenly" href="#about">
                     <img src="../../assets/icons/down-arrows.svg" alt="Down arrows">
                     <p>SOBRE MIM</p>
-                </button>
+                </a>
             </div>
         </section>
 
-        <section class="about flex space-between">
-            <img class="about__img" src="../../assets/home/image-homepage-profile.jpg" alt="My photo">
-            <div class="about__content flex-column">
+        <section class="about flex" id="about">
+            <img class="width-50" src="../../assets/home/image-homepage-profile.jpg" alt="My photo">
+            <div class="about__content flex-column just-center border">
                 <h2 class="title-h2">Sobre mim</h2>
                 <p class="text-1">Sou um desenvolvedor front-end júnior procurando por uma oportunidade. Eu foco em escrever HTML acessível, usando práticas modernas de CSS e escrevendo um JavaScript limpo. Quando estou escrevendo código JavaScript, na maioria das
                 vezes estou usando React, mas posso me adapta para qualquer ferramenta se necessário. Moro em Londres, UK, mas também seria feliz trabalhando remotamente e tenho experiência em times remotos. Quando não estou codando, poderá me achar fora de casa. Eu adoro estar próximo a natureza seja para uma caminhada, corrida ou ciclismo. Eu amaria se você desse uma
                 olhada no meu trabalho.</p>
-                <button class="btn__secondary  btn">
+                <a class="btn__secondary  btn" href="../../pages/portfolio/index.html">
                     IR PARA PORTFOLIO
-                </button>
+                </a>
             </div>
         </section>
 
         <section class="contact flex space-between">
             <h2 class="title-h2">Interessado em fazer <br> projetos comigo?</h2>
-            <button class="btn__secondary btn">CONTATO</button>
+            <a class="btn__secondary btn" href="../../pages/contato/index.html">CONTATO</a>
         </section>
 
     </main>
