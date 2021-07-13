@@ -13,6 +13,7 @@
     --grayish-dark-blue: rgb(51, 50, 61);
     --ligth-grey-bg: rgb(250, 250, 250);
     --light-grey-input: rgb(234, 234, 235);
+    --white-bd: rgb(242, 242, 242)
     
     --font-headings: font-family: 'Ibarra Real Nova', serif;
     --font-body: font-family: 'Public Sans', sans-serif;                                   
@@ -21,8 +22,8 @@
 
 body {
     color: var(--grayish-dark-blue);
+    background-color: var(--white-bd);
 }
-
 
 
 /* HEADER */
