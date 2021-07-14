@@ -140,6 +140,10 @@ body {
     transition: .3s;
 }
 
+.btn__about:hover svg g {
+    stroke: #FFF;
+}
+
 .btn__secondary {
     align-self: center;
     border: 1px solid var(--grayish-dark-blue);
