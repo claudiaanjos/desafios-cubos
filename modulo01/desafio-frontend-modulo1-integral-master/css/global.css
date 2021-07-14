@@ -178,8 +178,8 @@ body {
     justify-content: center;
 }
 
-.just-evenly {
-    justify-content: space-evenly;
+.just-around {
+    justify-content: space-around;
 }
 
 .space-between {

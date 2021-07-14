@@ -42,5 +42,6 @@
     margin-bottom: 24px;
 }
 
-
-
+.btn p {
+    margin-right: 15px;
+}
