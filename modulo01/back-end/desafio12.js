@@ -1,0 +1,19 @@
+/* Algumas pessoas da empresa de desenvolvimento Paralelepípedos são muito espaçosas e gostam de se sentar sozinhas nas mesas para ter todo o espaço para si.Além disso, preferem se sentar o mais longe possível de outras pessoas, por conta do seu espaço pessoal.O escritório da Paralelepípedos é uma sala muito grande, com mesas numeradas de 1 até N organizadas em uma única fileira.Quando uma pessoa chega, ela rapidamente identifica uma mesa(vazia e que esteja o mais longe possível de outras mesas ocupadas) para se sentar e se dirige a essa mesa.Caso tenha mais de uma mesa igualmente boa, a pessoa escolhe a que fica mais próxima da porta, que fica ao lado da mesa 1.
+
+Input Format
+
+A entrada consistirá em um único número inteiro N.
+
+    Constraints
+
+1 ≤ N ≤ 10 ^ 9
+
+Output Format
+
+Após N pessoas chegarem no escritório, imprima na saída o número da mesa em que a última dessas pessoas se sentou.
+ */
+function solucao(n) {
+    console.log(n<3 ? n : n-1)
+}
+
+solucao(1)
