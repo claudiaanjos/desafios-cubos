@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  flex-grow: 1;
+  padding: 64px 165px 0px 165px;
+}
+
+/* HEADER */
+
+.nav-list {
+  list-style: none;
+
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+ }
+
+/* FOOTER */
+
+ .footer {
+  padding-left: 165px;
+  padding-right: 165px;
+}
+
+.socials {
+  list-style: none;
+}
+
+/* PROJETOS */
+
+.hero-section__image, .project-preview {
+  max-width: 100%;
+  height: auto;
+}
+
+.project-details {
+  max-height: 500px;
+}

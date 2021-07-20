@@ -1,0 +1,15 @@
+.input, .text-area {
+  all: unset;
+
+  width: 100%;
+  background-color: rgba(51, 50, 62, 0.1);
+  border: 2px solid transparent;
+}
+
+.text-area {
+  min-height: 100px;
+}
+
+.input:focus, .text-area:focus {
+  border-color: #000;
+}

@@ -1,0 +1,16 @@
+.hero-section {
+  background-image: url('../../assets/home/image-homepage-hero.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  padding-top: 250px;
+}
+
+ .hero-section-content {
+   max-width: 445px;
+ }
+
+ .about-me__picture {
+   max-width: 540px;
+ }
