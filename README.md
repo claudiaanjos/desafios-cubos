@@ -17,3 +17,19 @@
 ### Back-end
 
 - Desafio de Lógica de programação no HackerRank.
+
+<br>
+
+## Módulo 02
+
+<br>
+
+### Front-end
+
+- Replicar o website com [o seguinte design](https://www.figma.com/file/AL6hZ3Lq16Uj8mw1o4BzAK/Desafio-front-academy-2?node-id=0%3A1) que permita as funcionalidades descritas no desafio.
+
+<br>
+
+### Back-end
+
+- Criar uma RESTful API para um Banco Digital com as funcionalidades descritas no desafio.
