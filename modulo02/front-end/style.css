@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 99vw;
+    min-height: 100vh;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    line-height: 150%;
+    background-color: #E5E5E5;
+    margin-bottom: 80px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A785ED;
+    padding: 15px;
+    margin-bottom: 41px;
+}
+
+.header__title {
+    font-weight: bold;
+    font-size: 36px;
+    color: #FDFDFD;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 41px;
+}
+
+.input {
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    border-radius: 8px;
+    padding: 14px;
+    width: 400px;
+    justify-self: center;
+}
+
+.input::placeholder {
+    font-size: 12px;
+    color: #979797;
+}
+
+.movies-container {
+    display: flex;
+    gap: 24px;
+}
+
+.movies-container > img, .movie, .btn-theme {
+    cursor: pointer;
+}
+
+.movies {
+    display: flex;
+    gap: 24px;
+}
+
+.movie {
+    width: 168px;
+    height: 301px;
+    background-size: 168px 301px;
+}
+
+.movie__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #FDFDFD;
+    font-weight: bold;
+    padding: 9px;
+    max-width: 168px;
+    height: 40px;
+    position: relative;
+    top: 87%;
+}
+
+.movie__title {
+    font-size: 16px;
+    display: block;
+}
+
+.movie__rating {
+    font-size: 12px;
+    color: #FBCD6E;
+    margin-left: 2px;
+}
+
+.movie__rating img {
+    margin-right: 4px;
+}
+
+.highlight {
+    display: flex;
+    gap: 24px;
+}
+
+.highlight__video{
+    background-size: 553px 100%;
+    width: 553px;
+    height: 341px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.highlight__info {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    padding: 16px 16px 49px 16px;
+    width: 360px;
+    height: 341px;
+}
+
+.highlight__title-rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.highlight__genre-launch{
+    margin-bottom: 36px;
+}
+
+.highlight__title {
+    font-weight: bold;
+    font-size: 24px;
+    color: #E183C8;
+}
+
+.highlight__rating {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
+    color: #A785ED;
+}
+
+.highlight__genres, .highlight__launch{
+    font-weight: 500;
+    font-size: 12px;    
+    text-transform: uppercase;    
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.highlight__description{
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    opacity: 0.8;
+    margin-top: 36px;
+}
+
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow-y: auto;
+    background: rgba(0, 0, 0, 0.8);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.modal__close{
+    cursor: pointer;
+    position: absolute;
+    left: 93.75%;
+    right: 3.89%;
+    top: 4.49%;
+    bottom: 92.19%;
+}
+
+.modal>div, .modal>p{
+    width: 729px;
+}
+
+.modal__title{
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-top: 10%;
+}
+
+.modal__img{
+    margin: 40px 0 21px 0;
+    width: 729px;
+    height: 413px;
+    background: url(image_2021-08-18_130717.png);
+}
+
+.modal__description{
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 29px;
+}
+
+.modal__genre-average{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.modal__genres{
+    display: flex;
+    gap: 12px;
+}
+
+.modal__genres p, .modal__average{
+    padding: 9px 11px;
+    font-size: 20px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: #E183C8;
+    border-radius: 8px;
+}
+
+.modal__average{
+    background: #A785ED;
+}
+
+.hidden{
+    display: none;
+} 
